@@ -44,7 +44,7 @@ def update_graph(option_cat):
     print(option_cat)
     print(type(option_cat))
 
-    container = "The population group chosen by user was: {}".format(option_cat)
+    container = "The funding category chosen by user was: {}".format(option_cat)
 
     dff = df.copy()
     dff = dff[dff["Population Categories"] == option_cat]
