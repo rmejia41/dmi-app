@@ -12,7 +12,7 @@ df = pd.read_csv("https://github.com/rmejia41/first-google-app/raw/main/dmi.csv"
 # App layout
 app.layout = html.Div([
 
-    html.H1("Web Application: CDC Funding for Data Modernization Initiative", style={'text-align': 'center'}),
+    html.H1("Web Application: CDC Funding for the Data Modernization Initiative (DMI)", style={'text-align': 'center'}),
 
     dcc.Dropdown(id="Population Categories",
                  options=[
